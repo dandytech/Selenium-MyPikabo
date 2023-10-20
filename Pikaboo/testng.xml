@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test thread-count="5" name="Admin Add Field Operator">
+		<classes>
+			<class name="Greenmouse.Pikaboo.tests.tests.AdminCreateFieldOperator" />
+		</classes>
+		
+	</test> <!-- Test -->
+	<test thread-count="5" name="Admin Add Fleet Manager">
+		<classes>
+			<class name="Greenmouse.Pikaboo.tests.tests.AdminCreateFleetMg" />
+		</classes>
+		
+	</test> <!-- Test -->
+	<test thread-count="5" name="Admin Add Waste Manager">
+		<classes>
+			<class name="Greenmouse.Pikaboo.tests.tests.AdminCreateWasteManager" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

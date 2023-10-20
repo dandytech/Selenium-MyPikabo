@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Admin Add Waste Manager(failed)">
+    <classes>
+      <class name="Greenmouse.Pikaboo.tests.adminCreateWasteManager">
+        <methods>
+          <include name="adminCreateWasteMg"/>
+        </methods>
+      </class> <!-- Greenmouse.Pikaboo.tests.adminCreateWasteManager -->
+    </classes>
+  </test> <!-- Admin Add Waste Manager(failed) -->
+</suite> <!-- Failed suite [Suite] -->
